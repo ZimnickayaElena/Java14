@@ -23,6 +23,7 @@ public class ShopRepositoryTest {
         Assertions.assertArrayEquals(expected, actual);
     }
 
+
     @Test
     public void testNotFound() {
         ShopRepository repo = new ShopRepository();
